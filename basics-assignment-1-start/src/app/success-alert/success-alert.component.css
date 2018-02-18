@@ -1,3 +1,8 @@
 p {
     color: green;
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+    background-color: palegreen;
+    padding: 30px;
 }
