@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button 
+      class="btn btn-primary"
+      [disabled]="hasStarted"
+      (click)="onStart()">Start</button>
+    <button 
+      class="btn btn-danger"
+      [disabled]="!hasStarted"
+      (click)="onStop()">Stop</button>
+  </div>
+</div>
