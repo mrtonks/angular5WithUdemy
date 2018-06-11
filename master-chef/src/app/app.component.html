@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-12">
       <app-recipes-book *ngIf="menuOption === 1"></app-recipes-book>
-      <app-shopping-list *ngIf="menuOption === 2"></app-shopping-list>
+      <app-shopping-list *ngIf="menuOption !== 1"></app-shopping-list>
     </div>
   </div>
 </div>
